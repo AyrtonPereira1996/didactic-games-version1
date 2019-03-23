@@ -26,6 +26,7 @@ box-shadow:  2px 1px 1px rgba(188, 188, 188, 0.5);
 border-bottom-right-radius: 2.5px;
 border-bottom-left-radius: 2.5px;
 
+
 }
 
 div#content-a a{
@@ -55,6 +56,8 @@ div#content-b a{
     color: #fff;
     text-decoration: none;
     margin-top: 20%;
+    
+
 }
 
 div#content-b:hover{

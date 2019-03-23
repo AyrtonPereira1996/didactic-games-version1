@@ -87,8 +87,8 @@
             ?>
 
             <ul class="list-A">
-                <li><a class="button" href="tabuada.html">Reiniciar</a></li>
-                <li class="home"><a href="main_page.html"><img src="_images/home1.png"></a></li>
+                <li><a class="button" href="tabuada.php">Reiniciar</a></li>
+                <li class="home"><a href="main_page.php"><img src="_images/home1.png"></a></li>
             </ul>
 
         </div>

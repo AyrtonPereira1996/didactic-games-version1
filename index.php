@@ -13,7 +13,7 @@
                 <div id="interface">
                     
                    <div id="content-index">
-                        <a href="main_page.html">Entra para jogar &larr;</a>
+                        <a href="main_page.php">Entra para jogar &larr;</a>
                    </div> 
 
                     <footer id="footer">
