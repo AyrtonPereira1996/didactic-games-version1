@@ -141,6 +141,14 @@ div#content-tabuada form{/*configuration of form from tabuada.php*/
           text-align: left;
       }
 
+div#content-divisao{ /*content from tabuada.php*/
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 2%;
+    margin: 8% 35% 10% 30%;
+    width: 40%;       
+    text-align: center;
+}
+
   p.special-phrase{/*configuration of phrases in some documents*/
       text-align: left;
   }
@@ -162,6 +170,13 @@ div#content-tabuada form{/*configuration of form from tabuada.php*/
     color: rgb(0, 139, 93);
     font-weight: bold;
 }
+
+span.special-word4{/*configuration of some words that are important to read because means something to the matter of the didactic game*/
+    color:darkgoldenrod;
+    font-weight: bold;
+}
+
+
 
   input.button-play{/*button from tabuada.php document*/
     padding: 5px;
