@@ -17,13 +17,13 @@
                     <div id="menu">
                     <div style="text-align: center;" id="content-a">
                         <p style="margin-top: 75px;">
-                             <a href="tabuada.html">Jogo da Tabuada</a>
+                             <a href="tabuada.php">Jogo da Tabuada</a>
                         </p>
                     </div>
 
                     <div id="content-b">
                         <p style="margin-top: 75px;">
-                            <a href="divisao.html">Jogo da Divisão</a>
+                            <a href="divisao.php">Jogo da Divisão</a>
                         </p>
                     </div> <br>
 
