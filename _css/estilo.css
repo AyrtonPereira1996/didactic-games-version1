@@ -1,25 +1,21 @@
 @charset "utf-8";
 
 *{
-
     font-family: sans-serif;
     margin : 0; 
     padding: 0;
-    
-    
-   
 }
 
-div#menu{
+div#menu{/*div from main_page.php document*/
     padding-top: 5%;
     width: 100%;
    
 }
 
-div#content-a{
+div#content-a{ /*first content from left-up to right-up from main_page.php document*/
 background-color: aquamarine;
 width: 25%;
-height: 150px;;
+height: 150px;
 float: left;
 margin-left: 20%;
 box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
@@ -29,7 +25,7 @@ border-bottom-left-radius: 2.5px;
 
 }
 
-div#content-b{
+div#content-b{/*second content from left-up to right-up from main_page.php document*/
     background-color: blueviolet;
     width: 25%;
     height: 150px;
@@ -44,7 +40,7 @@ div#content-b{
 
 
 
-div#content-c{
+div#content-c{/*first content from left-bottom to right-bottom from main_page.php document*/
     background-color: chartreuse;
     width: 25%;
     height: 150px;
@@ -58,7 +54,7 @@ div#content-c{
 }
 
 
-div#content-d{
+div#content-d{/*second content from left-bottom to right-bottom from main_page.php document*/
     background-color:chocolate;
     width: 25%;
     height: 150px;
@@ -72,18 +68,18 @@ div#content-d{
 }
 
 
-div#content-a:hover, div#content-b:hover, div#content-c:hover, div#content-d:hover{
+div#content-a:hover, div#content-b:hover, div#content-c:hover, div#content-d:hover{/*hover configuration at contents from main_page.php document*/
    box-shadow: -5px 5px 20px rgba(92, 152, 249);
 }
 
-div#content-a a, div#content-b a, div#content-c a, div#content-d a{
+div#content-a a, div#content-b a, div#content-c a, div#content-d a{/*anchor configuration at contents from main_page.php document*/
     color: #fff;
     text-decoration: none;
     margin-top: 20%;
  }
 
 
-div#content-index{
+div#content-index{/*content from index.php document*/
     background-color: #4286f4;
     padding: 2%;
     margin: 10% 35% 10% 35%;
@@ -95,17 +91,17 @@ div#content-index{
     
 }
 
-div#content-index a:hover {
+div#content-index a:hover {/*hover configuration at anchor from index.php document*/
     text-shadow: 0.5px 0.5px 0.5px rgb(168, 168, 168);
     color: #fff;
 }
 
 
-div#content-index:hover{
+div#content-index:hover{/*hover configuration at content from index.php document*/
     background-color:  rgba(66, 134, 244, 0.5);;
 }
 
-div#content-index a {
+div#content-index a { /*anchor configuration of content from index.php document*/
     font-size: 16pt;
     color:white;
     text-decoration: none;
@@ -115,7 +111,7 @@ div#content-index a {
 }
 
 
-footer{
+footer{/*footer region*/
     background-color:rgba(0, 0, 0, 0.3);
     text-align: center;
     padding: 5px;
@@ -127,13 +123,13 @@ footer{
     font-size: 1.1em;
 }
 
-  div#interface{
+  div#interface{ /*div from all documents of the project*/
       text-align: center;
   }
 
   
 
-  div#content-tabuada {
+  div#content-tabuada { /*content from tabuada.php*/
       background-color: rgba(255, 255, 255, 0.7); 
           padding: 2%;
           margin: 8% 35% 10% 30%;
@@ -141,36 +137,33 @@ footer{
           text-align: center;
           
   }
-div#content-tabuada form{
+div#content-tabuada form{/*configuration of form from tabuada.php*/
           text-align: left;
       }
 
-
-
-
-  p.special-phrase{
+  p.special-phrase{/*configuration of phrases in some documents*/
       text-align: left;
   }
 
-  span.special-word, .special-word2{
+  span.special-word, .special-word2{/*configuration of some special words*/
       font-weight: bold;
   }
 
-  span.special-word {
+  span.special-word {/*configuration of some words that are important to read because means something to the matter of the didactic game*/
       color: crimson;
   }
 
-  span.special-word2{
+  span.special-word2{/*configuration of some words that are important to read because means something to the matter of the didactic game*/
       color:#008b8b;
       
   }
 
-  span.special-word3 {
+  span.special-word3 {/*configuration of some words that are important to read because means something to the matter of the didactic game*/
     color: rgb(0, 139, 93);
     font-weight: bold;
 }
 
-  input.button-play{
+  input.button-play{/*button from tabuada.php document*/
     padding: 5px;
     background-color:  rgba(220, 20, 60, 0.7);
     border-radius: 5px;
@@ -184,7 +177,7 @@ div#content-tabuada form{
     
   }
 
-  input.button-play:hover{
+  input.button-play:hover{/*configuration of hover of button from tabuada.php document*/
     background-color:  rgba(220, 20, 60, 0.459);
     transition: 0.5s;
     

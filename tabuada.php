@@ -1,3 +1,4 @@
+<!--This page is the page that will permit users play the game "Jogo da tabuada"-->
 <!DOCTYPE html>
 <html>
 <head lang="pt-pt">

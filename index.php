@@ -1,3 +1,4 @@
+<!--This is the index page from "Jogos Didáticos"-->
 <!DOCTYPE html>
     <html lang="pt-pt">
         <head>

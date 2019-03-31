@@ -1,3 +1,4 @@
+<!--This is the page that will permit users choose the game and play througt the contents-->
 <!DOCTYPE html>
 <html lang="pt-pt">
 <head>
