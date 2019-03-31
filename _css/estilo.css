@@ -22,21 +22,11 @@ width: 25%;
 height: 150px;;
 float: left;
 margin-left: 20%;
-box-shadow:  2px 1px 1px rgba(188, 188, 188, 0.5);
+box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
 border-bottom-right-radius: 2.5px;
 border-bottom-left-radius: 2.5px;
 
 
-}
-
-div#content-a a{
-    color: #fff;
-    text-decoration: none;
-    text-align: right;
-}
-
-div#content-a:hover{
-    box-shadow:  2px 1px 1px rgba(188, 188, 188, 1);
 }
 
 div#content-b{
@@ -45,24 +35,14 @@ div#content-b{
     height: 150px;
     float: right;
     margin-right: 20%;
-    box-shadow:  2px 1px 1px rgba(188, 188, 188, 1);
+    box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
     border-bottom-right-radius: 2.5px;
     border-bottom-left-radius: 2.5px;
    
 
 }
 
-div#content-b a{
-    color: #fff;
-    text-decoration: none;
-    margin-top: 20%;
-    
 
-}
-
-div#content-b:hover{
-
-}
 
 div#content-c{
     background-color: chartreuse;
@@ -70,16 +50,13 @@ div#content-c{
     height: 150px;
     float: right;
     margin-right: 20%;
-    box-shadow:  2px 1px 1px rgba(188, 188, 188, 1);
+    box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
     border-bottom-right-radius: 2.5px;
     border-bottom-left-radius: 2.5px;
     margin-top: 5%;
 
 }
 
-div#content-c:hover{
-    
-}
 
 div#content-d{
     background-color:chocolate;
@@ -87,16 +64,23 @@ div#content-d{
     height: 150px;
     float: left;
     margin-left: 20%;
-    box-shadow:  2px 1px 1px rgba(188, 188, 188, 1);
+    box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
     border-bottom-right-radius: 2.5px;
     border-bottom-left-radius: 2.5px;
     margin-top: 5%;
 
 }
 
-div#content-d:hover{
-    background-color: aqua;
+
+div#content-a:hover, div#content-b:hover, div#content-c:hover, div#content-d:hover{
+   box-shadow: -5px 5px 20px rgba(92, 152, 249);
 }
+
+div#content-a a, div#content-b a, div#content-c a, div#content-d a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20%;
+ }
 
 
 div#content-index{

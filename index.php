@@ -17,7 +17,7 @@
                    </div> 
 
                     <footer id="footer">
-                        <p>Developed by Ayrton Pereira - @2019 </p>
+                        <p>Developed at 2019 </p>
                     </footer>
                   
                 </div>
