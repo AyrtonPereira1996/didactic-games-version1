@@ -18,7 +18,7 @@
                    </div> 
 
                     <footer id="footer">
-                        <p style="color:whitesmoke; font-weight:normal; text-shadow: 0.5px -0.5px 4px white; "><span class="special-word">J</span>ogo <span class="special-word2">D</span>id<span class="special-word3">á</span>tico<span class="special-word4">s</span></p>
+                        <p style="color:whitesmoke; font-weight:normal; text-shadow: -0.5px -0.5px 2.5px white; "><span class="special-word">J</span>ogo <span class="special-word2">D</span>id<span class="special-word3">á</span>tico<span class="special-word4">s</span></p>
                     </footer>
                   
                 </div>
