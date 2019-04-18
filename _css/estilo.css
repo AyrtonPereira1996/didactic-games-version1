@@ -82,45 +82,51 @@ div#content-a a, div#content-b a, div#content-c a, div#content-d a{/*anchor conf
 div#content-index{/*content from index.php document*/
     background-color: #4286f4;
     padding: 2%;
-    margin: 10% 35% 10% 35%;
+    margin: 10% 37.5% 10% 37%;
     width: 25%;       
     text-align: center;
-    box-shadow: 2px 1px 1px rgba(188, 188, 188, 1);
+    box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
     border-bottom-right-radius: 2.5px;
     border-bottom-left-radius: 2.5px;
     
 }
 
 div#content-index a:hover {/*hover configuration at anchor from index.php document*/
-    text-shadow: 0.5px 0.5px 0.5px rgb(168, 168, 168);
-    color: #fff;
+    /*color: rgba(255, 230, 0, 0.89);*/
+    text-shadow: 0.2px -0.2px 2px rgba(114, 114, 114, 0.712);
+    border-bottom: 2px solid yellow;
+    transition: 0.4s;
 }
 
 
 div#content-index:hover{/*hover configuration at content from index.php document*/
-    background-color:  rgba(66, 134, 244, 0.5);;
+    background-color:  rgba(66, 134, 244, 0.808);
+    transition: 0.1s;
+   
+    
 }
 
 div#content-index a { /*anchor configuration of content from index.php document*/
-    font-size: 16pt;
-    color:white;
+    font-size: 19pt;
+    color:whitesmoke;
     text-decoration: none;
     padding: 2%;
+    border-bottom: none;
+    
     
     
 }
 
 
 footer{/*footer region*/
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:rgba(0, 0, 0, 0.527);
     text-align: center;
     padding: 5px;
-    margin-left: 0.1%;
     width: 100%;
     position: fixed;
-    margin-top: 19.1%;
+    margin-top: 18.6%;
     color:#1e1e1e;
-    font-size: 1.1em;
+    font-size: 22pt;
 }
 
   div#interface{ /*div from all documents of the project*/
@@ -162,6 +168,9 @@ div#content-tabuada form{/*configuration of form from tabuada.php*/
     color: rgb(0, 139, 93);
     font-weight: bold;
 }
+   span.special-word4{/*configuration of some words that are important to read because means something to the matter of the didactic game*/
+        color:rgb(241, 200, 20);
+   }
 
   input.button-play{/*button from tabuada.php document*/
     padding: 5px;

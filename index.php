@@ -14,11 +14,11 @@
                 <div id="interface">
                     
                    <div id="content-index">
-                        <a href="main_page.php">Entra para jogar &larr;</a>
+                        <a href="main_page.php">&rarr; Entra para Jogar &larr;</a>
                    </div> 
 
                     <footer id="footer">
-                        <p>Developed at 2019 </p>
+                        <p style="color:whitesmoke; font-weight:normal; text-shadow: 0.5px -0.5px 4px white; "><span class="special-word">J</span>ogo <span class="special-word2">D</span>id<span class="special-word3">á</span>tico<span class="special-word4">s</span></p>
                     </footer>
                   
                 </div>
