@@ -14,7 +14,8 @@
         <body>
                 <div id="interface">
                     
-                    <h1 class="title-index">Jogos Didáticos</h1>
+                    
+                    <h1 style="font-size: 40pt;" >Menu</h1>
                     <div id="menu">
                     <div style="text-align: center;" id="content-a">
                         <p style="margin-top: 75px;">
@@ -29,13 +30,14 @@
                     </div> <br>
 
                     <div id="content-c">
-                        <p style="margin-top: 75px;">
+                        <p style="margin-top: 75px;"><a>Impar ou par?</a>
                         </p>
 
                     </div>
 
                     <div id="content-d">
                         <p style="margin-top: 75px;">
+                        <a></a>
                         </p>
                     </div>
                 </div>

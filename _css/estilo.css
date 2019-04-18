@@ -6,6 +6,13 @@
     padding: 0;
 }
 
+
+
+nav#menu-bar a {
+    text-decoration: none;
+}
+
+
 div#menu{/*div from main_page.php document*/
     padding-top: 5%;
     width: 100%;
@@ -15,7 +22,7 @@ div#menu{/*div from main_page.php document*/
 div#content-a{ /*first content from left-up to right-up from main_page.php document*/
 background-color: aquamarine;
 width: 25%;
-height: 150px;
+height: 200px;
 float: left;
 margin-left: 20%;
 box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
@@ -28,7 +35,7 @@ border-bottom-left-radius: 2.5px;
 div#content-b{/*second content from left-up to right-up from main_page.php document*/
     background-color: blueviolet;
     width: 25%;
-    height: 150px;
+    height: 200px;
     float: right;
     margin-right: 20%;
     box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
@@ -39,11 +46,23 @@ div#content-b{/*second content from left-up to right-up from main_page.php docum
 }
 
 
+div#content-c{/*second content from left-bottom to right-bottom from main_page.php document*/
+    background-color:chocolate;
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin-left: 20%;
+    box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
+    border-bottom-right-radius: 2.5px;
+    border-bottom-left-radius: 2.5px;
+    margin-top: 5%;
 
-div#content-c{/*first content from left-bottom to right-bottom from main_page.php document*/
+}
+
+div#content-d{/*first content from left-bottom to right-bottom from main_page.php document*/
     background-color: chartreuse;
     width: 25%;
-    height: 150px;
+    height: 200px;
     float: right;
     margin-right: 20%;
     box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
@@ -54,28 +73,22 @@ div#content-c{/*first content from left-bottom to right-bottom from main_page.ph
 }
 
 
-div#content-d{/*second content from left-bottom to right-bottom from main_page.php document*/
-    background-color:chocolate;
-    width: 25%;
-    height: 150px;
-    float: left;
-    margin-left: 20%;
-    box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
-    border-bottom-right-radius: 2.5px;
-    border-bottom-left-radius: 2.5px;
-    margin-top: 5%;
-
-}
 
 
 div#content-a:hover, div#content-b:hover, div#content-c:hover, div#content-d:hover{/*hover configuration at contents from main_page.php document*/
    box-shadow: -5px 5px 20px rgba(92, 152, 249);
+   transition: 0.5s;
+   
+  
+   
 }
 
 div#content-a a, div#content-b a, div#content-c a, div#content-d a{/*anchor configuration at contents from main_page.php document*/
-    color: #fff;
+    margin-top: 75px; 
+    font-size: 18pt;
+    color: black;
     text-decoration: none;
-    margin-top: 20%;
+  
  }
 
 
