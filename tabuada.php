@@ -10,9 +10,14 @@
     <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
     <style>
     body{
-    background: url("_images/painter-3177366.png");
+    background-image: url("_images/painter-3177366.png");
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size:1400px 800px; 
+    
   }
     </style>
 

@@ -12,13 +12,14 @@
         </head>
             <body id="index">
                 <div id="interface">
-                    
+                  
+                <p style="margin-left:4%;margin-top:2%;color:rgb(77, 76, 76); font-weight:normal; text-shadow: -0.5px -0.5px 2.5px white; font-size: 5em; "><span class="special-word">J</span>ogo<span class="special-word4">s</span> <span class="special-word2">D</span>id<span class="special-word3">á</span>tico<span class="special-word4">s</span></p>
                    <div id="content-index">
                         <a href="main_page.php">&rarr; Entra para Jogar &larr;</a>
                    </div> 
-
+                    
                     <footer id="footer">
-                        <p style="color:whitesmoke; font-weight:normal; text-shadow: -0.5px -0.5px 2.5px white; "><span class="special-word">J</span>ogo <span class="special-word2">D</span>id<span class="special-word3">á</span>tico<span class="special-word4">s</span></p>
+                      <p>Developed at 2019</p>
                     </footer>
                   
                 </div>

@@ -11,9 +11,12 @@
     <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
     <style>
     body {
-        background: url("_images/painter-3177366.png");
-        background-repeat: no-repeat;
-        background-size: 1400px 800px;
+        overflow:hidden;
+        background-image: url("_images/painter-3177366.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
     }
 
     span.special-word3 {

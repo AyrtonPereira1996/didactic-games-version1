@@ -108,6 +108,7 @@ div#content-index a:hover {/*hover configuration at anchor from index.php docume
     /*color: rgba(255, 230, 0, 0.89);*/
     text-shadow: 0.2px -0.2px 2px rgba(114, 114, 114, 0.712);
     border-bottom: 2px solid rgb(255, 255, 0);
+    color: rgb(77, 76, 76)
        
 }
 
@@ -137,7 +138,7 @@ footer{/*footer region*/
     padding: 5px;
     width: 100%;
     position: fixed;
-    margin-top: 18.5%;
+    margin-top: 18.8%;
     color:#1e1e1e;
     font-size: 22pt;
 }
