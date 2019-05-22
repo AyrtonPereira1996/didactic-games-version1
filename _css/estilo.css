@@ -132,15 +132,9 @@ div#content-index a { /*anchor configuration of content from index.php document*
 }
 
 
-footer{/*footer region*/
+div#footer{/*footer region*/
     background-color:rgba(0, 0, 0, 0.527);
-    text-align: center;
-    padding: 5px;
-    width: 100%;
-    position: fixed;
-    margin-top: 18.8%;
-    color:#1e1e1e;
-    font-size: 22pt;
+ 
 }
 
   div#interface{ /*div from all documents of the project*/
