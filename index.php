@@ -15,13 +15,13 @@
                 <div id="interface">
                 
                   
-                <p style="margin-left:4%;margin-top:2%;color:rgb(77, 76, 76); font-weight:normal; text-shadow: -0.5px -0.5px 2.5px white; font-size: 5em; "><span class="special-word">J</span>ogo<span class="special-word4">s</span> <span class="special-word2">D</span>id<span class="special-word3">á</span>tico<span class="special-word4">s</span></p>
+                <p style="margin-left:4%;margin-top:2%;color:rgb(77, 76, 76); font-weight:normal; text-shadow: -0.5px -0.5px 2.5px white; font-size: 5em; letter-spacing: 8px;"><span class="special-word">J</span>ogo<span class="special-word4">s</span> <span class="special-word2">D</span>id<span class="special-word3">á</span>tico<span class="special-word4">s</span></p>
                    <div id="content-index">
-                        <a href="main_page.php">&rarr; Entra para Jogar &larr;</a>
+                        <a style="letter-spacing: 2px;" href="main_page.php">&rarr; Entra para Jogar &larr;</a>
                    </div> 
                     
-                  <div style="background-color:rgba(0, 0, 0, 0.527); margin-top: 255px; padding:5px;">
-                      <p style="font-size: 1em;color:whitesmoke;margin-left: 5%;text-align: center; ">Developed at 2019</p>
+                  <div style="background-color:rgba(0, 0, 0, 0.527); margin-top: 266px; padding:5px;">
+                      <p style="font-size: 1em;color:whitesmoke;margin-left: 5%;text-align: center; letter-spacing: 8px; ">Developed at 2019</p>
                   </div>
                   
                 </div>
