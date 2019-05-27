@@ -27,7 +27,7 @@
         <h1 class="game-titles">Jogo da Tabuada!</h1>
         <center>
     <div id="content-tabuada">
-        <p><span class="special-word">BOA</span><span class="special-word2">!</span><br/> Agora segue as <span class="special-word2"> instruçoes </span> abaixo e jamais esquecerás da <span class="special-word">Tabuada</span>.</p>
+        <p><span class="special-word">Bem vindo</span> ao <span class="special-word2">Jogo da Multiplicação</span><span class="special-word3">!</span><br /><br/> Agora segue as <span class="special-word2"> instruçoes </span> abaixo e jamais esquecerás da <span class="special-word">Tabuada</span>.</p>
         <p class="special-phrase">Escolhe o <span class="special-word2">Multiplicador</span> para começares o <span class="special-word">Jogo</span> da <span class="special-word2">Tabuada</span></p>
         <form method="GET" action="funcao_tabuada.php" style="margin-top:2.5%;">
             <label for="id_valor">Escolhe o <span class="special-word2">Multiplicador</span></label>
@@ -43,15 +43,9 @@
             }
            ?> 
             
-           
-            
             <input type="submit" class="button-play" value="JOGA!"/> 
 
         </form>
-
-
-
-
 
     </div>
     </center>

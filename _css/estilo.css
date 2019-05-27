@@ -97,7 +97,7 @@ div#content-index{/*content from index.php document*/
     background-color: #4286f4;
     padding: 2%;
     margin: 10% 37.5% 10% 37%;
-    width: 25%;       
+    width: 30%;       
     text-align: center;
     box-shadow:-2.5px 2px 15px rgba(128, 131, 136, 0.829);
     border-bottom-right-radius: 2.5px;
@@ -156,17 +156,39 @@ div#content-tabuada form{/*configuration of form from tabuada.php*/
 div#content-divisao{ /*content from tabuada.php*/
     background-color: rgba(255, 255, 255, 0.7); 
     padding: 2%;
-    margin: 8% 35% 10% 30%;
-    width: 40%;       
+    margin-top: 5%;
+    width: 68%;       
+    text-align: center;
+    font-size: 15pt;
+}
+
+div#content-divisao table{
     text-align: center;
 }
 
 div#content-divisao form{
+    overflow: auto;
+    width: 50%;
     margin-top: 2.5%;
-    padding: 5px;
-    margin-left: 3.6%;
-
+    padding: 2.5px;
+    margin-right: 25%;
+    margin-left: 25%;
 }
+
+
+
+div#content-divisao input[type="number"]{
+    width: 50%;
+    border-radius: 2.5px;
+    border: none;
+    box-shadow: 2px 1px 1px rgba(188, 188, 188, 1);
+    text-align: center;
+    color: darkcyan;
+    height: 40px;
+    font-size: 15pt;
+}
+
+
 
   p.special-phrase{/*configuration of phrases in some documents*/
       text-align: left;
@@ -192,17 +214,12 @@ span.special-word4{/*configuration of some words that are important to read beca
         color:rgb(255, 255, 0);
 }
 
-span.special-word4{/*configuration of some words that are important to read because means something to the matter of the didactic game*/
-    color:darkgoldenrod;
-    font-weight: bold;
-}
-
   input.button-play{/*button from tabuada.php document*/
-    padding: 5px;
+    padding: 2px;
     background-color:  rgba(220, 20, 60, 0.7);
     border-radius: 5px;
     color: white;
-    width: 15%;
+    width: 100px;
     border: none;
     box-shadow: 2px 1px 1px rgba(188, 188, 188, 1);
     margin-top: 5%;
@@ -215,9 +232,7 @@ span.special-word4{/*configuration of some words that are important to read beca
 
 input.button-play:hover{/*configuration of hover of button from tabuada.php document*/
     background-color:  rgba(220, 20, 60, 0.459);
-    transition: 0.5s;
-    
-  
+    transition: 0.5s;  
 }
 
 a.button:hover {/*configuration of hover of button from funcao_tabuada.php document*/
