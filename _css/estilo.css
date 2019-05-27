@@ -149,6 +149,13 @@ div#content-divisao{ /*content from tabuada.php*/
     text-align: center;
 }
 
+div#content-divisao form{
+    margin-top: 2.5%;
+    padding: 5px;
+    margin-left: 3.6%;
+
+}
+
   p.special-phrase{/*configuration of phrases in some documents*/
       text-align: left;
   }
