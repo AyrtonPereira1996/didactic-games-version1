@@ -153,7 +153,22 @@ div#content-tabuada form{/*configuration of form from tabuada.php*/
           text-align: left;
       }
 
-p.special-phrase{/*configuration of phrases in some documents*/
+div#content-divisao{ /*content from tabuada.php*/
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 2%;
+    margin: 8% 35% 10% 30%;
+    width: 40%;       
+    text-align: center;
+}
+
+div#content-divisao form{
+    margin-top: 2.5%;
+    padding: 5px;
+    margin-left: 3.6%;
+
+}
+
+  p.special-phrase{/*configuration of phrases in some documents*/
       text-align: left;
   }
 
@@ -177,7 +192,12 @@ span.special-word4{/*configuration of some words that are important to read beca
         color:rgb(255, 255, 0);
 }
 
-input.button-play{/*button from tabuada.php document*/
+span.special-word4{/*configuration of some words that are important to read because means something to the matter of the didactic game*/
+    color:darkgoldenrod;
+    font-weight: bold;
+}
+
+  input.button-play{/*button from tabuada.php document*/
     padding: 5px;
     background-color:  rgba(220, 20, 60, 0.7);
     border-radius: 5px;
