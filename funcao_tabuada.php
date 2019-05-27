@@ -11,78 +11,24 @@
     <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
     <style>
     body {
-        overflow:hidden;
-        background-image: url("_images/painter-3177366.png");
+    background-image: url("_images/painter-3177366.png");
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    
-    }
-
-    span.special-word3 {
-        color: rgb(0, 139, 93);
-        font-weight: bold;
-    }
-
-    p.resultSet {
-        text-align: left;
-    }
-
-
-    a.button:hover {
-        background-color: rgba(220, 20, 60, 0.459);
-        transition: 0.5s;
-    }
-    a.button {
-    text-decoration: none;
-    padding: 5px;
-    background-color: rgba(220, 20, 60, 0.7);
-    border-radius: 5px;
-    color: white;
-    width: 25%;
-    border: none;
-    box-shadow: 2px 1px 1px rgba(188, 188, 188, 1);
-    
-    margin-top: 5%;
-    font-weight: normal;
-}
-
-    ul.list-A{
-        margin-top:2.5%;
-        margin-bottom:0%;
-        list-style: none;
-        
-    }
-
-    ul.list-A li{
-        display:inline-block;
-        padding:1px;
-    }
-
-    li.home {
-        border-radius: 2px;
-        width:8%;
-        padding:0;
-        margin:auto auto auto 94%;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.0) ;   
-       
-    }
-
-    li.home:hover {
-        border-bottom: 2px solid crimson;
+    background-repeat: no-repeat;   
     }
     </style>
 
 </head>
 
-<body id="tabuada">
+<body style="overflow:hidden;" id="tabuada">
     <div id="interface">
         <h1>Jogo da Tabuada!</h1>
+        <center>
         <div id="content-tabuada">
             <?php
             $valor = isset($_GET["valor"]) ? $_GET["valor"]:"[Tens que digitar um valor!]";
 
-        echo ("<span class='special-word'>PARABÉNS</span><span class='special-word2'>!</span><br/> <p>Abaixo está a tabuada do fator <span class='special-word2'>Multiplicador</span> que escolheste que foi <span class='special-word2'>". $valor. "</span> o fator <span class='special-word'>Multiplicando</span> neste jogo vai até <span class='special-word'>10</span> depois da multiplicação o  <span class='special-word3'>Produto</span> surge.</p>"); 
+        echo ("<span class='special-word'>PARABÉNS</span><span class='special-word2'>!</span><br/> <p>Abaixo está a tabuada do fator <span class='special-word2'>Multiplicador</span> que escolheste que foi <span class='special-word2'>". $valor. "</span> o fator <span class='special-word'>Multiplicando</span> neste jogo vai até <span class='special-word'>10</span> depois de multiplicares o  <span class='special-word3'>Produto</span> surge.</p>"); 
        
             for ($c=0; $c<=10; $c++) { 
                 $resultado=$valor * $c; 
@@ -96,6 +42,7 @@
             </ul>
 
         </div>
+        </center>
     </div>
 </body>
 

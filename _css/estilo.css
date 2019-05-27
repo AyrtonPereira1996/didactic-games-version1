@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-*{
+*{/*universal configuration*/
     font-family: sans-serif;
     margin : 0; 
     padding: 0;
@@ -133,75 +133,121 @@ div#content-index a { /*anchor configuration of content from index.php document*
 
 div#footer{/*footer region*/
     background-color:rgba(0, 0, 0, 0.527);
- 
 }
 
   div#interface{ /*div from all documents of the project*/
       text-align: center;
   }
-
   
-
-  div#content-tabuada { /*content from tabuada.php*/
-      background-color: rgba(255, 255, 255, 0.7); 
-          padding: 2%;
-          margin: 8% 35% 10% 30%;
-          width: 40%;       
-          text-align: center;
+#content-tabuada { /*content from tabuada.php*/
+        width: 55%;   
+        background-color: rgba(255, 255, 255, 0.7); 
+        margin-top: 5%;
+        padding: 2%;   
+        text-align: center;
+        font-size: 15pt;
+        letter-spacing: 1.2px; 
           
   }
 div#content-tabuada form{/*configuration of form from tabuada.php*/
           text-align: left;
       }
 
-  p.special-phrase{/*configuration of phrases in some documents*/
+p.special-phrase{/*configuration of phrases in some documents*/
       text-align: left;
   }
 
-  span.special-word, .special-word2{/*configuration of some special words*/
+span.special-word, .special-word2{/*configuration of some special words*/
       font-weight: bold;
   }
 
-  span.special-word {/*configuration of some words that are important to read because means something to the matter of the didactic game*/
+span.special-word {/*configuration of some words that are important to read because means something to the matter of the didactic game*/
       color: crimson;
   }
 
-  span.special-word2{/*configuration of some words that are important to read because means something to the matter of the didactic game*/
+span.special-word2{/*configuration of some words that are important to read because means something to the matter of the didactic game*/
       color:#008b8b;
-      
   }
 
-  span.special-word3 {/*configuration of some words that are important to read because means something to the matter of the didactic game*/
+span.special-word3 {/*configuration of some words that are important to read because means something to the matter of the didactic game*/
     color: rgb(0, 139, 93);
     font-weight: bold;
 }
-   span.special-word4{/*configuration of some words that are important to read because means something to the matter of the didactic game*/
+span.special-word4{/*configuration of some words that are important to read because means something to the matter of the didactic game*/
         color:rgb(255, 255, 0);
-   }
+}
 
-  input.button-play{/*button from tabuada.php document*/
+input.button-play{/*button from tabuada.php document*/
     padding: 5px;
     background-color:  rgba(220, 20, 60, 0.7);
     border-radius: 5px;
     color: white;
-    width: 25%;
+    width: 15%;
     border: none;
     box-shadow: 2px 1px 1px rgba(188, 188, 188, 1);
-    
     margin-top: 5%;
+    font-weight: normal;
+    margin-left: 37%;
+    font-size: 1em;
+    letter-spacing: 1px;
     
-    
-  }
+}
 
-  input.button-play:hover{/*configuration of hover of button from tabuada.php document*/
+input.button-play:hover{/*configuration of hover of button from tabuada.php document*/
     background-color:  rgba(220, 20, 60, 0.459);
     transition: 0.5s;
     
   
-  }
+}
 
-  
+a.button:hover {/*configuration of hover of button from funcao_tabuada.php document*/
+    background-color: rgba(220, 20, 60, 0.459);
+    transition: 0.5s;
+}
 
+a.button {/*button from funcao_tabuada.php document*/
+text-decoration: none;
+padding: 5px;
+background-color: rgba(220, 20, 60, 0.7);
+border-radius: 5px;
+color: white;
+width: 25%;
+border: none;
+box-shadow: 2px 1px 1px rgba(188, 188, 188, 1);
+margin-top: 5%;
+font-weight: normal;
+font-size: 1em;
+letter-spacing: 1px;
+}
+
+ul.list-A{/*configuration of the list of the buttons from funcao_tabuada.php document*/
+    margin-top:2.5%;
+    margin-bottom:0%;
+    list-style: none;
+    
+}
+
+ul.list-A li{/*configuration of the list items of the buttons from funcao_tabuada.php document*/
+    display:inline-block;
+    padding:1px;
+}
+
+li.home {/*configuration of the buttom home from funcao_tabuada.php document*/
+    border-radius: 2px;
+    width:8%;
+    padding:0;
+    margin:auto auto auto 94%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.0) ;   
+   
+}
+
+li.home:hover {/*configuration of hover of the buttom home from funcao_tabuada.php document*/
+    border-bottom: 2px solid crimson;
+}
+
+p.resultSet {/*configuration of the result of from funcao_tabuada.php document*/
+    text-align: left;
+}
 
  
 
