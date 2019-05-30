@@ -28,7 +28,7 @@
             <?php
             $valor = isset($_GET["valor"]) ? $_GET["valor"]:"[Tens que digitar um valor!]";
 
-        echo ("<span class='special-word'>PARABÉNS</span><span class='special-word2'>!</span><br/> <p>Abaixo está a tabuada do fator <span class='special-word2'>Multiplicador</span> que escolheste que foi <span class='special-word2'>". $valor. "</span> o fator <span class='special-word'>Multiplicando</span> neste jogo vai até <span class='special-word'>10</span> depois de multiplicares o  <span class='special-word3'>Produto</span> surge.</p>"); 
+        echo ("<span class='special-word'>BOA!</span><span class='special-word2'>!</span><br/> <p>Abaixo está a tabuada do fator <span class='special-word2'>Multiplicador</span> que escolheste que foi <span class='special-word2'>". $valor. "</span> o fator <span class='special-word'>Multiplicando</span> neste jogo vai até <span class='special-word'>10</span> depois de multiplicares o  <span class='special-word3'>Produto</span> surge.</p>"); 
        
             for ($c=0; $c<=10; $c++) { 
                 $resultado=$valor * $c; 

@@ -13,7 +13,7 @@
 
 </head>
 
-<body id="index">
+<body style="overflow: auto;" id="index">
     <div id="interface">
 
 
@@ -22,7 +22,7 @@
             <a style="letter-spacing: 1px;" href="main_page.php">&rarr; Entra para Jogar &larr;</a>
         </div>
 
-        <div style="background-color:rgba(0, 0, 0, 0.527); margin-top: 259px; padding:5px;">
+        <div style="background-color:rgba(0, 0, 0, 0.527); margin-top: 265px; padding:5px;">
           
                 <p style="font-size: 1em;color:whitesmoke;text-align: center; letter-spacing: 8px; ">Developed at 2019</p>
           
