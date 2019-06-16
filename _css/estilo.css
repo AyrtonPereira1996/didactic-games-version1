@@ -1,11 +1,53 @@
 @charset "utf-8";
 
 *{/*universal configuration*/
-    font-family: sans-serif;
+    font-family: karla;
     margin : 0; 
     padding: 0;
     box-sizing: border-box;
     
+}
+
+@font-face{
+    font-family: cagliostro;
+    src: url(../_fonts/cagliostro-regular-webfont.woff);
+}
+
+@font-face{
+    font-family: karla;
+    src: url(../_fonts/karla-regular-webfont.woff);
+}
+
+h1.games-title{
+    font-family: cagliostro;
+}
+
+a.imgAdress-item{
+    position: absolute;
+    bottom: 5px; 
+    left: 5px;
+    color:beige;
+    font-size: 12pt;
+}
+
+img.img-link{
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+img.img-link:hover{
+    border-bottom: 2px dotted crimson;
+    margin-left: 5px;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+body#body-content-game{
+    background-image: url(../_images/black-1072366_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 
@@ -132,7 +174,7 @@ div#content-index a { /*anchor configuration of content from index.php document*
 
 div#footer-content{
     background-color:rgba(0, 0, 0, 0.527);
-    margin-top: 240px;
+    margin-top: 180px;
     padding:5px;
     width: 100%;
     height: 100px;

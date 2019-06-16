@@ -8,24 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="sortcut icon" href="_images/icone.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
-    <style>
-    body{
-    background-image: url("_images/painter-3177366.png");
-    background-attachment: fixed;
-    -o-background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    
-  }
-    </style>
 
 </head>
-<body id="tabuada">
+<body id="body-content-game">
     <div id="interface">
-        <h1 class="game-titles">Jogo da Tabuada!</h1>
+    <a href="main_page.php"><img class="img-link" src="./_images/icons8_Left_104px.png" /></a>
         <center>
+        <h1 class="games-title" style="color: beige;">Jogo da Tabuada!</h1>
     <div id="content-tabuada">
         <p><span class="special-word">Bem vindo</span> ao <span class="special-word2">Jogo da Multiplicação</span><span class="special-word3">!</span><br /><br/> Agora segue as <span class="special-word2"> instruçoes </span> abaixo e jamais esquecerás da <span class="special-word">Tabuada</span>.</p>
         <p class="special-phrase">Escolhe o <span class="special-word2">Multiplicador</span> para começares o <span class="special-word">Jogo</span> da <span class="special-word2">Tabuada</span></p>
@@ -49,6 +38,8 @@
 
     </div>
     </center>
+
+    <a class="imgAdress-item" target="_blank" href="https://pixabay.com/users/stux-12364/">&rarr; Imagem de Stux<a>
 </div>
 </body>
 </html>

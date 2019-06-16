@@ -10,23 +10,14 @@
     <link rel="sortcut icon" type="image/x-icon" href="_images/icone.ico" />
     <title>Jogo da Divisão!</title>
 
-    <style>
-        body {
-            background: url("_images/painter-3177366.png");
-            background-repeat: no-repeat;
-            background-size: 1400px 800px;
-        }
-    </style>
-
-
-
 </head>
 
-<body>
+<body id="body-content-game">
     <div id="interface">
-
-        <h1>Jogo da Divisão!</h1>
+    <a href="main_page.php"><img class="img-link" src="./_images/icons8_Left_104px.png" /></a>
+        
         <center>
+        <h1 class="games-title" style="color: beige;">Jogo da Divisão!</h1>
             <div id="content-divisao">
                 <p><span class="special-word">Bem vindo</span> ao <span class="special-word2">Jogo da Divisão</span><span class="special-word">!</span><br />
                     <span class="special-word3">Descobre</span> como <span>funciona</span> uma <span class="special-word">operação de divisão</span><span class="special-word4">.</span>
@@ -56,6 +47,7 @@
                 
             </div>
         </center>
+        <a class="imgAdress-item" target="_blank" href="https://pixabay.com/users/stux-12364/">&rarr; Imagem de Stux<a>
     </div>
 
 </body>

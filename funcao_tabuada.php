@@ -20,10 +20,12 @@
 
 </head>
 
-<body style="overflow:hidden;" id="tabuada">
+<body id="body-content-game">
     <div id="interface">
-        <h1>Jogo da Tabuada!</h1>
+    <a href="main_page.php"><img class="img-link" src="./_images/icons8_Left_104px.png" /></a>
+       
         <center>
+        <h1 class="games-title" style="color: beige;">Jogo da Tabuada!</h1>
         <div id="content-tabuada">
             <?php
             $valor = isset($_GET["valor"]) ? $_GET["valor"]:"[Tens que digitar um valor!]";
@@ -36,13 +38,13 @@
             }
             ?>
 
-            <ul class="list-A">
-                <li><a class="button" href="tabuada.php">Reiniciar</a></li>
-                <li class="home"><a href="main_page.php"><img src="_images/home1.png"></a></li>
-            </ul>
+            
+                <a class="button" href="tabuada.php">Reiniciar</a>
+         
 
         </div>
         </center>
+        <a class="imgAdress-item" target="_blank" href="https://pixabay.com/users/stux-12364/">&rarr; Imagem de Stux<a>
     </div>
 </body>
 

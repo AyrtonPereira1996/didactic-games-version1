@@ -15,7 +15,8 @@
                 <div id="interface">
                     
                     
-                    <h1 style="font-size: 40pt;" >Menu</h1>
+                    <h1 class="games-title" style="font-size: 40pt;" ><span style="color:chartreuse;">M</span><span style="color:chocolate;">e</span><span style="color:blueviolet;;">n</span><span style="color:aquamarine;">u</span></h1>
+                    <a href="index.php"><img class="img-link" src="./_images/icons8_Home_100px.png" /></a>
                     <div id="menu">
                     <div style="text-align: center;" id="content-a">
                         <p style="margin-top: 75px;">
