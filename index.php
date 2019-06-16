@@ -22,9 +22,9 @@
             <a style="letter-spacing: 1px;" href="main_page.php">&rarr; Entra para Jogar &larr;</a>
         </div>
 
-        <div style="background-color:rgba(0, 0, 0, 0.527); margin-top: 259px; padding:5px;">
+        <div id="footer-content" style="">
           
-                <p style="font-size: 1em;color:whitesmoke;text-align: center; letter-spacing: 8px; ">Developed at 2019</p>
+                <p>Developed at 2019</p>
           
         </div>
 

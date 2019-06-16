@@ -12,10 +12,10 @@
     body{
     background-image: url("_images/painter-3177366.png");
     background-attachment: fixed;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     
   }
