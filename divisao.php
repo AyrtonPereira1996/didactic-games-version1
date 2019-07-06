@@ -10,16 +10,6 @@
     <link rel="sortcut icon" type="image/x-icon" href="_images/icone.ico" />
     <title>Jogo da Divisão!</title>
 
-    <style>
-        body {
-            background: url("_images/painter-3177366.png");
-            background-repeat: no-repeat;
-            background-size: 1400px 800px;
-        }
-    </style>
-
-
-
 </head>
 
 <body>
