@@ -13,7 +13,7 @@
 
 </head>
 
-<body id="index">
+<body style="overflow: auto;" id="index">
     <div id="interface">
 
 

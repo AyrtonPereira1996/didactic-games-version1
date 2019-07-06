@@ -23,7 +23,7 @@
                     <span class="special-word3">Descobre</span> como <span>funciona</span> uma <span class="special-word">operação de divisão</span><span class="special-word4">.</span>
                 </p>
               
-                <form method="get" action="">
+                <form method="get" action="funcao_divisao.php">
                    
                         <table>
 
