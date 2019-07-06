@@ -9,14 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="sortcut icon" href="_images/icone.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
-    <style>
-    body {
-    background-image: url("_images/painter-3177366.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    }
-    </style>
 
 </head>
 

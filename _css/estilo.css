@@ -223,6 +223,12 @@ div#content-divisao{ /*content from tabuada.php*/
 
 div#content-divisao table{
     text-align: center;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+ 
+  
+    
 }
 
 div#content-divisao form{

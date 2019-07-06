@@ -34,7 +34,7 @@
                                 <th><span class="special-word3">&nbsp;&nbsp;Quociente </span><br />&nbsp;&nbsp;&nbsp;&darr;</th>
                             </tr>
                             <tr>
-                                <td style="margin-right:20%;"><input type="number" name="dividendo" /></td>
+                                <td ><input type="number" name="dividendo" /></td>
                                 <td class="table-line"> : </td>
                                 <td class="table-line"><input type="number" name="divisor" /></td>
                                 <td> = <span style="font-size:30pt;" class="special-word3"> ? </span></td>
